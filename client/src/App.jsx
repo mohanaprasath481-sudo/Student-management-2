@@ -27,7 +27,7 @@ function App() {
     setLoading(true)
 
     try {
-      await axios.post('https://studentmanagement-ln6q.onrender.com/students', {
+      await axios.post('https://student-management-2-h212.onrender.com/students', {
         ...student,
         year: Number(student.year)
       })
